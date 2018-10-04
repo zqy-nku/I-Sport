@@ -1,0 +1,34 @@
+.bed{
+	display: inline;
+	padding-left: 10%;
+}
+
+body{
+	background: url("image/lantian.jpg");
+	background-size: 100% 100%;
+	background-color: #CCCCCC;
+	margin:20px;
+}
+
+.flash{
+	display: inline;
+	width: 60%;
+}
+.flash img{
+	margin-left: 60px;
+	margin-top: 80px;
+	width: 60%;
+	height: 65%;
+}
+.login-form{
+	background-color: #ffffff;
+	margin-top: 80px;
+	margin-right: 50px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 119px;
+	float: right;
+	width: 30%;
+	border:1px solid #ddeeff;
+}

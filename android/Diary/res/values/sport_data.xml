@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sportlist">
+        <item >羽毛球</item>
+        <item>篮球</item>
+        <item>足球</item>
+        <item>乒乓球</item>
+        <item>网球</item>
+        <item>排球</item>
+        <item>台球</item>
+        <item>高尔夫球</item>
+        <item>保龄球</item>
+        <item>健美操</item>
+        <item>街舞</item>
+        <item >瑜伽</item>
+        <item >田径</item>
+        <item >滑雪</item>
+        <item >旱冰</item>
+        <item >溜冰</item>
+        <item >攀岩</item>
+        <item >自行车</item>
+        <item >太极</item>
+        <item >广场舞</item>
+        <item >散打</item>
+        <item >拳击</item>
+        <item >跆拳道</item>
+        <item >空手道</item>
+        <item >击剑</item>
+        <item >钓鱼</item>
+        <item >游泳</item>
+        
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical" >
+
+    <!-- 左边部分 -->
+    
+  <ImageButton 
+      android:id="@+id/tuiacti_return"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left|center_vertical"
+      android:layout_weight="1"
+       android:src="@drawable/back"
+      
+        />
+<!--  
+    <Button
+        android:id="@+id/pubacti_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight="1"
+        android:text="@string/goback"
+        android:textSize="20sp"
+        android:textColor="#c0c0c0"
+        android:background="@drawable/btn" />
+-->
+    <TextView
+        android:id="@+id/pubacti_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="4"
+        android:text="@string/tui_acti"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+   
+</LinearLayout>
+
+</LinearLayout>

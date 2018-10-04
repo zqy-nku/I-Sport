@@ -1,0 +1,108 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chinasoft.isport.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <!-- 设置互联网访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+<!--         注册一个窗体，并设置其为首启动窗体 -->
+<!--         <activity android:name="com.chinasoft.isport.activity.LoginActivity"> -->
+<!--             通过Intent过滤器设置其为首启动窗体 -->
+<!--             <intent-filter> -->
+<!--                 <action android:name="android.intent.action.MAIN" /> -->
+<!--                 <category android:name="android.intent.category.LAUNCHER" />                 -->
+<!--             </intent-filter> -->
+            
+<!--         </activity> -->
+        
+        <!-- 注册主窗体 -->
+        <activity android:name="com.chinasoft.isport.activity.MyphotoActivity" android:label="相册"/>     
+        <activity android:name="com.chinasoft.isport.activity.MydiaryActivity" android:label="日志"/>
+        <activity android:name="com.chinasoft.isport.activity.MyshuoshuoActivity" android:label="说说"/>
+         <activity android:name="com.chinasoft.isport.activity.changeinfo" android:label="资料"/>
+         <activity android:name="com.chinasoft.isport.activity.MystoreActivity" android:label="收藏"/>
+           <activity android:name="com.chinasoft.isport.activity.WriteDiaryActivity" android:label="编写日志"/>
+        <activity android:name="com.chinasoft.isport.activity.WriteShuoshuoActivity" android:label="编写说说"></activity>
+          
+        <activity
+            android:name="com.chinasoft.isport.activity.MainActivity"
+            android:label="@string/activity"
+            android:theme = "@style/titlebar" >
+            
+        </activity>
+        <!-- 注册推荐活动窗体 -->
+        <activity android:name="com.chinasoft.isport.activity.TuiActivity" android:theme = "@style/titlebar"/>
+        <!-- 注册热门活动窗体 -->
+         <activity android:name="com.chinasoft.isport.activity.ReActivity" android:theme = "@style/titlebar"/>
+        <!-- 注册参加过的活动窗体 -->
+        <activity android:name="com.chinasoft.isport.activity.JoinedActivity" android:theme = "@style/titlebar"/>
+        <!-- 注册发布活动窗体 -->
+        <activity android:name="com.chinasoft.isport.activity.PublishActivity" android:theme = "@style/titlebar">
+           
+         
+          
+         </activity>
+         <!-- 注册主窗体 -->
+        <activity android:name="com.chinasoft.isport.activity.MyActivityGroupDemo">
+        </activity>
+          <!-- SerializableMap -->
+        <activity android:name="com.chinasoft.isport.activity.SerializableMap">
+        </activity>
+        <!-- SportTypeActivity -->
+        <activity android:name="com.chinasoft.isport.activity.SportTypeActivity">
+        </activity>
+          <!-- TreasDetailActivity -->
+        <activity android:name="com.chinasoft.isport.activity.TreasDetailActivity">
+        </activity>
+         <!-- TreasureActivity -->
+        <activity android:name="com.chinasoft.isport.activity.TreasureActivity">
+        </activity>
+        
+        
+            <!-- 注册 -->
+        <activity
+            android:name="com.chinasoft.isport.activity.RegActivity"
+            android:label="注册" >
+        </activity>
+        <!-- 教练详细 -->
+        <activity
+            android:name="com.chinasoft.isport.activity.DetailCoachActivity"
+            android:label="详细资料"
+            android:theme="@style/backstyle" >
+        </activity>
+        <!-- 登陆 -->
+        <activity android:name="com.chinasoft.isport.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <!-- 场馆教练 -->
+        <activity
+            android:name="com.chinasoft.isport.activity.CoachChangguanActvity"
+            android:label="场馆教练" >
+            
+        </activity>
+        <!-- 场馆详细 -->
+        <activity android:name="com.chinasoft.isport.activity.DetailVenueActivity" 
+            android:theme="@style/backstyle">
+        </activity>
+      
+    </application>
+    
+    
+    
+
+</manifest>

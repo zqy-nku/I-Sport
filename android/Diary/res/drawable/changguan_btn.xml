@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按钮非按下状态 -->
+    <item android:state_selected="true"><shape>
+            <corners android:bottomLeftRadius="7dp" android:topLeftRadius="7dp" />
+
+            <solid android:color="#aaaaaa" />
+
+            <padding android:bottom="3dp" android:left="13dp" android:right="3dp" android:top="3dp" />
+        </shape></item>
+
+    <!-- 按钮按下状态 -->
+    <item android:state_selected="false"><shape>
+            <corners android:bottomLeftRadius="7dp" android:topLeftRadius="7dp" />
+
+            <solid android:color="#ffffff" />
+
+            <padding android:bottom="3dp" android:left="13dp" android:right="3dp" android:top="3dp" />
+        </shape></item>
+
+</selector>

@@ -1,0 +1,31 @@
+body{margin:0;padding:0;}
+  ul#bigs{
+   LIST-STYLE-TYPE: none;
+   DISPLAY:block;
+   margin: 0px;
+   clear: both;
+  }
+  ul#bigs li{
+  FLOAT: left;
+   display: block;
+   margin-top: 9px;
+   margin-left: 8px;
+  }
+  ul#bigs li a {
+   display: block;
+   width:116px;
+  }
+  ul#bigs li a img{
+  border:1px #666 solid; 
+  }
+  ul#bigs li a:hover{
+  position: absolute;
+  z-index:100;
+  margin: -8px;
+ 
+  }
+  ul#bigs li a:hover img{
+  width:138px;
+  height:107px;
+  border:1px #ccc solid; 
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TitleBackgroundColor">
+        <item name="android:background">#77af69</item>
+    </style>
+    <style name="backcolor">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="titlestyle" parent="android:Theme">
+        <item name="android:windowTitleSize">46dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBackgroundColor</item>
+    </style>
+	
+    <style name="backstyle" parent="android:Theme">
+        <item name="android:windowTitleSize">45dip</item>
+         <item name="android:windowTitleBackgroundStyle">@style/backcolor</item>
+    </style>
+</resources>

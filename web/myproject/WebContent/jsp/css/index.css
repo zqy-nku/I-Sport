@@ -1,0 +1,218 @@
+body{
+	background: url("../image/muban.jpg");
+	background-attachment: fixed;
+	margin: 0;
+}
+
+/*header*/
+.header{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #ffeedd;
+	margin-top: -70px;
+}
+
+.header p{
+	margin-top: 14px;
+	font-size: 115%;
+	margin-left: 14%;
+}
+.header p a{
+	margin-left: 8px;
+	margin-right: 8px;
+	color: #223344;
+	text-decoration: none;
+}
+.header p .name{
+	float: right;
+	margin-right: 10%;
+}
+
+.container{
+	background: url("image/muban.jpg");
+	margin-top: 70px;
+	margin-left: 14%;
+	background-color: #556677;
+	width: 75%;
+	min-width: 800px;
+	height: inherit;
+}
+
+/*left*/
+.container .left{
+	padding-top: 5px;
+	display: inline-block;
+	width: 17%;
+	height: 1200px;
+	background-color: #445522;
+	float: left;
+	background-color: rgb(248,240,222);
+}
+.container .left a{
+	line-height: 30px;
+	letter-spacing: 2px;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 18px;
+	margin: 5px;
+	font-size: 110%;
+	color: #112233;
+}
+.container .left a:hover{
+	background-color: rgb(234,200,197);
+}
+.container .left a img{
+	width: 20px;
+	height: 20px;
+	margin-right: 13px;
+}
+.container .main{
+	display: inline-block;
+	width: 62%;	
+	height: auto;
+	background-color: #889944;
+	float: left;
+	background-color: rgb(250,250,250);
+}
+/*main*/
+.container .main hr{
+	width: 85%;
+} 
+.container .mian .post{
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+.container .main .post img{
+	
+}
+.container .main .post a img{
+	width: 15px;
+	height: 15px;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-right: 8px;
+	text-decoration: none;
+}
+.container .main .post a{
+	vertical-align: middle;
+	text-decoration: none;
+}
+.container .main .post a label{
+	vertical-align: center;
+}
+.container .main .post button{
+	float: right;
+	margin-right: 90px;
+	width: 60px;
+	height: 30px;
+	background-color: #ccddee;
+}
+
+/*新鲜事*/
+.container .main .xinxianshi{
+	margin-top: 50px;
+	margin-bottom: 90px;
+
+}
+.container .main .xinxianshi .xinxianshi-item{
+	width: 100%;
+}
+.container .main .xinxianshi .xinxianshi-item .touxiang{
+	display: inline;
+	float: left;
+	width: 20%;
+	min-width: 40px;
+}
+.container .main .xinxianshi .xinxianshi-item .touxiang img{
+	display: block;
+	padding-left: 40px;
+	padding-top: 20px;
+	width: 50px;
+	height: 50px;
+}
+.container .main .xinxianshi .xinxianshi-item .touxiang a{
+	text-decoration: none;
+}
+.container .main .xinxianshi .xinxianshi-item .touxiang .username{
+	display: block;
+	padding-left: 40px;
+	padding-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+.container .main .xinxianshi .xinxianshi-item .content{
+	float: left;
+	width: 70%;
+	margin-right: 5%;
+	margin-bottom: 15px;	
+}
+.container .main .xinxianshi .xinxianshi-item .content p{
+	float: left;	
+	line-height: 25px;
+}
+.container .main .xinxianshi .xinxianshi-item .content a img{
+	width: 150px;
+	height: 150px;
+}
+.container .main .xinxianshi .xinxianshi-item .other{
+	margin-top: 7px;
+	font-size: 80%;
+}
+.container .main .xinxianshi .xinxianshi-item .other .time{
+	display: inline;
+	float: left;
+}
+.container .main .xinxianshi .xinxianshi-item .other .zanpingzhuan{
+	display: inline;
+	float: right;
+}
+.container .main .xinxianshi .xinxianshi-item .other .zanpingzhuan img{
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+.container .right{
+	display: inline-block;
+	width: 21%;
+	height: 1130px;
+	float: left;
+	background-color: rgb(248,240,222);
+}
+.container .right .info{
+	margin-left: 7%;
+	margin-top: 5%;
+	line-height: 24px;
+}
+
+.container .right .info a img{
+	width: 160px;
+	display: block;
+	margin-bottom: 15px;
+	height: 160px;
+}
+.container .right .info a{
+	display: block;
+	text-decoration: none;
+}
+
+.container .right .info label{
+	display: block;
+}
+
+.container .right .remen{
+	line-height: 24px;
+	margin-top: 20px;
+	padding-top: 9px;
+	padding-left: 8px;
+	padding-bottom: 20px;
+	width: 96%;
+	height: auto;
+	border: 1px groove #eeddff;
+}
+.container .right .remen a{
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}

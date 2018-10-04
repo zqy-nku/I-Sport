@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+       <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            
+            <!-- 设置该组件为实心颜色填充 -->
+            <solid android:color="#fff"/>
+            <!-- 设置组件的描边 -->
+            <stroke android:width="0.5dp" android:color="#ccc" />
+            <!-- 设置圆边角 -->
+            <corners android:radius="0dp"/>
+            
+        </shape>
+
+

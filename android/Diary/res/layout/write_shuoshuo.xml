@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_table"
+        android:orientation="horizontal" >
+
+          <TableRow
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:background="@drawable/info_table"
+            android:text="内容*:" />
+         <EditText 
+                    android:id="@+id/shuoshuo_content"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="请输入1-200个汉字"
+                    android:background="@drawable/txt_style"
+                    android:paddingLeft="0dp"
+                     android:ems="10"
+             android:inputType="textMultiLine" >
+            <requestFocus />
+            </EditText>
+      
+       
+            
+         </TableRow>
+        </TableLayout>
+    <Button
+        android:id="@+id/buttonwriteshuoshuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="确定" />
+     
+    </LinearLayout>
+
+

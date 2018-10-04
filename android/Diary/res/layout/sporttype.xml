@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="0" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/searchsport"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/txt_style"
+                android:hint="搜索运动"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnsearchsport"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="#55008800"
+                android:text="搜索" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/football"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/golf"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/tennis"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/football1" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/golf1" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:background="@drawable/sport_table_style"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/tennis1" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+<TableLayout 
+    android:id="@+id/mainmenu"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="#5500ee00"
+    android:padding="5dp"
+    android:layout_marginBottom="0dp">
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            />
+          <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="约友"
+            />
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="场馆"
+            />
+              <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运动宝典"
+            />
+    </TableRow>
+</TableLayout>
+</LinearLayout>

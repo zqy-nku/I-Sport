@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="6dp" >
+    <!-- 搜索活动 -->
+    <!-- 显示活动的三个组件 -->
+ <TableLayout 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content"
+     android:collapseColumns="3"
+     android:padding="6dp"   
+     android:background="@drawable/acti_button_style" >
+    <!-- 推荐活动 --> 
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dp">
+    <Button 
+        android:id="@+id/butTui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:shadowColor="#ffffcc"
+        android:text="@string/tui_acti"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn"/>
+    <!-- 热门活动 --> 
+    <Button 
+        android:id="@+id/butRe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/re_acti"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/btn"/>
+    <!-- 我参加的活动 --> 
+    <Button 
+        android:id="@+id/btnJoined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/joined_acti"
+         android:textSize="15sp"
+         android:layout_marginLeft="1dp"
+         android:textColor="#ffffff"
+        android:background="@drawable/btn"/>
+    </TableRow>
+ </TableLayout>
+<ListView 
+    android:id="@id/android:list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawSelectorOnTop="false"/>
+<TextView 
+    android:id="@id/android:empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#c0c0c0"
+    android:text="No data"
+    android:gravity="center_vertical"/>
+   
+    
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_gravity="center_vertical" >
+
+    <!-- 左边部分 -->
+
+    <ImageButton
+        android:id="@+id/pubacti_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/back"
+        android:background="#41a113" />
+
+    <TextView
+        android:id="@+id/pubacti_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="5"
+        android:text="@string/publish_activity"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <!-- 右边部分 -->
+
+    <ImageButton
+        android:id="@+id/pubacti_OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+         android:layout_weight="1"
+        android:src="@drawable/ok"
+        android:background="#41a113"/>
+</LinearLayout>
+
+</LinearLayout>

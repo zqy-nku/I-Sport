@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:collapseColumns="2"
+    android:stretchColumns="0">
+ <!-- 左边部分 --> 
+
+ <TableRow
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:padding="5dp" >
+
+     <TextView
+         android:id="@+id/title1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_gravity="left|center_vertical"
+       
+         android:text="@string/activity"
+         android:textColor="#ffffff"
+         android:textSize="22sp" />
+<!-- 右边部分 -->   
+    
+  
+    
+ </TableRow>
+</TableLayout>

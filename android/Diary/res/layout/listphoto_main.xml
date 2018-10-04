@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:collapseColumns="2"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtPublishtime"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2014-09-09"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtPublishtype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="1"
+                    android:textSize="15sp" 
+                    android:text="手机相册" />
+            </TableRow>
+        </TableLayout>
+
+      <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+             
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:collapseColumns="3" 
+            android:orientation="horizontal">
+
+                  <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="70dp" 
+                 android:layout_marginLeft="10dp">
+ 		       
+ 		      <ImageView 
+     android:id="@+id/imgPhoto_1"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+     android:contentDescription="用户头像"
+        android:src="@drawable/user"/>
+ 		      <ImageView 
+     android:id="@+id/imgPhoto_2"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+     android:contentDescription="用户头像"
+        android:src="@drawable/user"/>
+
+ 		     
+
+ 		      <ImageView
+ 		          android:id="@+id/imgPhoto_3"
+ 		          android:layout_width="90dp"
+ 		          android:layout_height="90dp"
+ 		          android:contentDescription="用户头像"
+ 		          android:src="@drawable/user" />
+
+ 		        
+ 		        
+ 		      </TableRow>
+ 		        <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="70dp" 
+                android:layout_marginLeft="10dp">
+ 		          <ImageView 
+     android:id="@+id/imgPhoto_4"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+     android:contentDescription="用户头像"
+        android:src="@drawable/user"/>
+ 		      <ImageView 
+     android:id="@+id/imgPhoto_5"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+     android:contentDescription="用户头像"
+        android:src="@drawable/user"/>
+
+ 		     
+
+ 		     <ImageButton
+ 		          android:id="@+id/imgPhoto_6"
+ 		          android:layout_width="90dp"
+ 		          android:layout_height="90dp"
+ 		          android:background="@drawable/more"  >
+ 		            
+ 		         </ImageButton>
+
+ 		         
+ 		          </TableRow>
+ 		        </TableLayout>
+ 		
+       
+        
+    </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+

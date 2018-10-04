@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_table"
+        android:orientation="horizontal" >
+
+          <TableRow
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:background="@drawable/info_table"
+            android:text="标题*:" />
+         <EditText 
+                    android:id="@+id/diary_title"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:hint="请输入1-50个汉字"
+                    android:background="@drawable/txt_style"
+                    android:paddingLeft="0dp"
+                     android:ems="10"
+             android:inputType="textMultiLine" >
+            <requestFocus />
+            </EditText>
+      
+       
+            
+         </TableRow>
+          <TableRow
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            
+         android:background="@drawable/info_table"
+            android:text="内容*:" />
+      
+                    <EditText
+              android:id="@+id/diary_content"
+            android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:hint="请输入1-50个汉字"
+                    android:background="@drawable/txt_style"
+                     android:ems="10"
+             android:inputType="textMultiLine" >
+            <requestFocus />
+            </EditText>
+         </TableRow>
+         
+           <Button
+        android:id="@+id/buttonwdiary"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+     
+        android:text="确定" />
+    </TableLayout>
+
+   
+     
+    </LinearLayout>
+
+

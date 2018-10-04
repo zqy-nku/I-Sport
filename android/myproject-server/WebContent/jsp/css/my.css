@@ -1,0 +1,231 @@
+.my_img{
+	border:2px solid #ffeeaa;
+	width: 300px;
+	height: 300px;
+}
+.mm{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.zhuye{
+	padding-top: 20px;
+	width: 100%;
+	height: 870px;
+	background-color: #112233;
+}
+.zhuangtai{
+	width: 100%;
+	height: 870px;
+	background-color: #334455;
+}
+.rizhi{
+	padding-top: 80px;
+	height: 870px;
+	width: 100%;
+	background-color:#4477ff;
+}
+.shoucang{
+	width: 100%;
+	height: 870px;
+	background-color: #664477;
+}
+.xiangce{
+	width: 100%;
+	height: 870px;
+	background-color: #229955;
+}
+.shezhi{
+	width: 100%;
+	height: 870px;
+	background-color: #552277;
+}
+.mycontainer{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 5px;
+	width: 100%;
+	background-color: #eeffcc;
+	height: auto;
+	max-height: 4000000px;
+}
+.col-xs-6 a:hover{
+	color: #eecc99;
+}
+
+.rightbar{
+	top: 50px;
+	display: block;
+	margin-right: 0px;
+	float: right;
+	width: 25.5%;
+	height: 2000px;
+	background-color: #ffeeff;
+	right: 0px;
+	position: absolute;
+	overflow: hidden;
+}
+
+h5{
+	margin: 3px;
+}
+.rightbar.myinfo{
+	font-size: 7px;
+	color: #aa33ff;
+}
+
+.myinfo img{
+	float: left;
+	margin-top: 0px;
+	width: 170px;
+	height: 170px;
+}
+
+.zanpingzhuan{
+	margin-right: 50px;
+	display: inline;
+	float: right;
+}
+
+label{
+	font-weight: lighter;
+	font-size: 9px;
+	margin-left: 0px;
+	color: #002233;
+}
+
+.other{
+	margin-left: 55px;
+	font-size: 9px;
+	display: inline;
+	margin-bottom: 15px;
+}
+
+.time{
+	color: #002233;
+	display: inline;
+}
+.touxiang img{
+	float: left;
+	display: block;
+	width: 50px;
+	height:50px;
+}
+h4{
+	font-family:"鏂板畫浣�;
+	padding-left: 10px;
+	display: block;
+	margin-left: 0px;
+	color: #000000;
+}
+
+p{
+	padding-left: 5px;
+	display: block;
+	margin-left: 50px;
+	color: #002233;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+p img{
+	margin: 4px;
+	border:2px solid #eeff11;
+	width: 160px;
+	height: 160px;
+	display: inline;
+}
+.zhuangtai p a img{
+	margin: 4px;
+	border:2px solid #ffeecc;
+	width: 160px;
+	height: 160px;
+	display: inline;
+}
+
+hr{
+	border-color: #aaddff;
+	height: 5px;
+}
+.my_container{
+	display: inline-block;
+	background-color: #ffeeff;
+	left: 30px;
+	width: 40%;
+	margin: 2px;
+}
+
+.left_menu{
+	font-size: 20px;
+	color: #2233ff;
+	width: 190px;
+	height: auto;
+	display: block;
+	float: left;
+	margin: 5px;
+	margin-left: 15px;
+	padding: 2px;
+	position: fixed;
+}
+
+.left_menu a label{
+	display: block;
+	background-color: #aa2222;
+}
+a:hover{
+
+	cursor:auto;
+	text-decoration: none;
+}
+.my_reg{
+	float: left;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 70px;
+}
+.line{
+	margin: 13px;
+}
+
+.my_showImage{
+	margin: 20px;
+	padding: 5px;
+}
+
+.my_showImage .a:hover{
+	background-color: #ffeeaa;
+}
+
+.my_showImage a img{
+	border-radius: 10px;
+	border:5px solid #eeddcc;
+}
+
+.post{
+	width: 50px;
+	height: 50px;
+	padding: 40px;
+	background-color: #ffddff;
+}
+.post:hover{
+	background-color: #00ff00;
+}
+
+.my_map{
+	width: 500px;
+	height: 500px;
+}
+
+.my_regbody{
+	
+	background-attchement:fixed;
+	background-size: 100%;
+}
+.my_select{
+	width: 100px;
+	height: 30px;
+  
+  font-size: 15px;
+
+  border-radius: 3px;
+}

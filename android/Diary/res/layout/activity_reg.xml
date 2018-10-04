@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--  填写注册信息标签-->
+    <ImageView
+     android:layout_width="200dp"
+     android:layout_height="70dp"
+  
+     android:layout_marginLeft="60dp"
+     android:src="@drawable/ball" /><!-- 标签 -->
+    
+    <TableLayout
+        android:id="@+id/table" 
+        android:layout_margin="10dp"
+        android:background="@drawable/table_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:collapseColumns="5"
+        android:stretchColumns="4"
+        android:layout_marginTop="5dp">
+        <!-- 邮箱-->
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/eml"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            
+            <EditText
+                android:id="@+id/eml"
+                android:layout_height="40dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="8"
+                android:background="@drawable/txt_style"
+                android:hint="将做为登陆账号"
+                android:paddingLeft="5dp"
+                android:textSize="20sp" />
+
+        </TableRow><!-- 邮箱 -->
+        <!-- 昵称 -->
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            
+             <TextView android:layout_width="wrap_content"
+                android:text="@string/nickname"
+                android:textColor="#000000"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            
+            <EditText 
+                android:id="@+id/nickname"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/txt_style"
+                android:layout_height="40dp"
+                android:layout_weight="8"
+                android:paddingLeft="5dp"
+                android:hint="@string/nickname"
+                android:textSize="20sp"/>
+        </TableRow><!-- 昵称 -->
+        <!--  密码-->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView 
+                android:layout_width="fill_parent"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="right|center_vertical"
+                android:textSize="20sp"
+                android:text="@string/password"/>
+            <EditText 
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:background="@drawable/txt_style"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:hint="@string/inputpassword"
+                android:inputType="textPassword"/>
+        </TableRow><!-- 密码 -->
+        <!--  确认密码-->
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView 
+                android:layout_width="fill_parent"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_gravity="right|center_vertical"
+                android:text="密码"/>
+            <EditText 
+                android:id="@+id/repassword"
+                android:layout_width="fill_parent"
+                android:layout_weight="8"
+                android:background="@drawable/txt_style"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:hint="确认密码"
+                android:inputType="textPassword"/>
+        </TableRow><!-- 确认密码 -->
+        <!-- 性别 -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="性别"/><RadioGroup
+                android:id="@+id/radiogender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:background="@drawable/txt_style"
+                android:gravity="left"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/femal"
+                    android:layout_marginLeft="0dp"
+                    android:text="男"
+                    android:textColor="#000000"
+                    android:textSize="20sp" 
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_marginLeft="20dp"
+                    android:text="女"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+        </TableRow><!-- 性别 -->
+        <!-- 地址 -->
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="地址"/>
+            <LinearLayout 
+               
+                android:layout_width="fill_parent"
+                
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_weight="8"
+                android:background="@drawable/txt_style"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+                <Spinner 
+                android:id="@+id/province"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                />
+            <Spinner 
+                android:id="@+id/city"
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:paddingTop="8dp"
+                android:layout_weight="4"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                />
+                
+            </LinearLayout>
+            
+        </TableRow>
+        
+<!--  地址-->
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:collapseColumns="3"
+    android:stretchColumns="1" >
+
+    <!-- 条款 -->
+
+    <CheckBox
+        android:id="@+id/agreerule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/register_protocal"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+</TableLayout><!-- 提交按钮 -->
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0.5dp"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_span="5"
+                android:background="@drawable/btn_reg_bg"
+                android:padding="10dp"
+                android:text="提交"
+                android:textSize="12sp" />
+        </TableRow>
+        <!-- 提交 -->
+
+
+    </TableLayout>
+</LinearLayout>

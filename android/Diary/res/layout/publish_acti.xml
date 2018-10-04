@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff"
+    android:padding="4dp" >
+ <!-- 发表活动，利用tableLayout -->
+ <TableLayout 
+     android:id="@+id/pubacti"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:collapseColumns="2"
+     android:stretchColumns="1"
+     android:padding="2dp"
+     android:background="@drawable/acti_button_style">
+     <!-- 运动标签 -->
+     <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:text="@string/acti_sport"
+             android:textSize="16sp" />
+         <Spinner 
+             android:id="@+id/spSport"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:layout_margin="12dp"
+             android:prompt="@string/sport_info"
+             android:entries="@array/sportlist"/>
+     </TableRow>
+     
+     <!-- 活动名称-->
+     <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:text="@string/acti_name"
+             android:textSize="16sp" />
+         <EditText 
+             android:id="@+id/edt_actiname"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="12dp"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:hint="请输入活动名称"/>
+     </TableRow>
+     <!-- 运动活动地点 -->
+     <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:text="@string/acti_place"
+             android:textSize="16sp" 
+             />
+         <EditText 
+             android:id="@+id/edt_actiplace"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="12dp"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:hint="请输入活动地点"/>
+     </TableRow>
+     <!-- 开始时间 -->
+      <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:text="@string/begtime"
+             android:textSize="16sp" />
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+              android:layout_weight="1"
+              android:layout_margin="12dp"
+             android:layout_gravity="center_vertical">
+             <Button 
+                android:id="@+id/actibegdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择开始日期"/>
+            <Button
+                 android:id="@+id/actibegtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="选择开始时间" />
+         </LinearLayout>
+     </TableRow>
+     <!-- 结束时间-->
+      <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:text="@string/endtime"
+             android:textSize="16sp" />
+          <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_weight="1"
+             android:layout_margin="12dp"
+             android:layout_gravity="center_vertical">
+            <Button 
+                android:id="@+id/actienddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择结束日期"/>
+            <Button
+                android:id="@+id/actiendtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="选择结束时间" />
+         </LinearLayout>
+     </TableRow>
+     
+     <!-- 活动内容 -->
+     <TableRow 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         
+            <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_gravity="center_vertical"
+             android:text="@string/acticont"
+             android:textSize="16sp" />
+          <EditText
+              android:id="@+id/edt_acticont"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:layout_weight="1"
+             
+             android:ems="10"
+             android:inputType="textMultiLine" >
+            <requestFocus />
+          </EditText>
+
+</TableRow>
+ </TableLayout>
+</ScrollView>

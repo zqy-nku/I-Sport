@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 界面外围的的整体布局风格 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <!-- 添加一个TextView文本组件标签 -->
+
+ <ImageView
+     android:layout_width="150dp"
+     android:layout_height="120dp"
+     android:layout_marginLeft="80dp"
+     android:src="@drawable/logins" />
+
+    <!-- 添加一个LinearLayout布局组件 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerInParent="true"
+        android:background="@drawable/table_style"
+        android:orientation="vertical"
+        android:padding="10dp" >
+        
+        <!-- 上半部分：TableLayout完成我们的标签和编辑文本框 -->
+       
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:collapseColumns="1"
+            android:stretchColumns="0" >
+
+            <!-- 第一行组件标签 -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 添加一个编辑文本框 -->
+
+                <EditText
+                    android:id="@+id/txtAccount"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/txt_style"
+                    android:drawableLeft="@drawable/loginuser"
+                    android:hint="@string/eml"
+                    android:inputType="text"
+                    android:paddingLeft="8dp"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <!-- 第二行组件标签 -->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp" >
+
+                <!-- 添加一个编辑文本框 -->
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/txt_style"
+                    android:hint="@string/password"
+                    android:drawableLeft="@drawable/password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="8dp"
+                    
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- 下半部分：LinearLayout实现按钮组件的添加 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <!-- 添加一个登录按钮 -->
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/btn_login_bg"
+                android:text="@string/login"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <!-- 添加一个注册按钮 -->
+
+                <Button
+                    android:id="@+id/btnReg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_reg_style"
+                    android:text="@string/reg"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+
+                <!-- 添加一个忘记密码的按钮 -->
+
+                <Button
+                    android:id="@+id/btnForg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_reg_style"
+                    android:text="@string/forg"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 添加一个TextView文本组件标签 -->
+
+    <TextView
+        android:id="@+id/txtCopyRight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/login_copyright"
+        android:textColor="#b88756"
+        android:textSize="12sp" />
+
+</RelativeLayout>
